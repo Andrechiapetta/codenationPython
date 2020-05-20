@@ -20,6 +20,7 @@ class Impressora:
     def print_modelo_instancia(self):
         print(self.modelo)
 
+
 impressora = Impressora(15)
 
 impressora.imprimir_folha()

@@ -8,6 +8,7 @@ class Impressora:
         for i in range(paginas):
             cls.imprimir_folha()
 
+
 print("-----Inicio imprimir_folha-----")
 Impressora.imprimir_folha()
 print("-----Fim imprimir_folha-----\n")
