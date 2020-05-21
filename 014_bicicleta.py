@@ -12,13 +12,13 @@ class Veiculo:
     def parar(self):
         self.velocidade = 0
         print("Parando.. parando...")
-        print("Parado!!") 
+        print("Parado!!")
         print(f"velocidade atual é {self.velocidade}")
 
     def buzinar(self):
         print("BiIiI BiiII")
 
-   
+
 class Bicicleta(Veiculo):
     def __init__(self):
         Veiculo.__init__(self)
