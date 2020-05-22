@@ -34,7 +34,12 @@ camelo = Bicicleta()
 bike.cor = "Amarelo"
 print("Bicicleta nome: BIKE")
 print(f"Cor: {bike.cor}")
-print(f"Velocidade atual {bike.velocidade}\n")
+print(f"Velocidade atual é {bike.velocidade}")
+bike.aumentar_velocidade(20)
+print(f"Velocidade atual é {bike.velocidade}")
+bike.parar()
+bike.buzinar()
+print(" ")
 
 camelo.cor = "Vermelho"
 print(f"Cor: {camelo.cor}")
